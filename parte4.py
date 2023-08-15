@@ -13,7 +13,7 @@ def main_loop(laberinto, start, end):
     px, py = start
 
     while (px, py) != end:
-        laberinto[py][px] = '\U0001F92B'
+        laberinto[py][px] = "P"
         print_laberinto(laberinto)
         laberinto[py][px] = '.'
 
@@ -36,7 +36,7 @@ def main_loop(laberinto, start, end):
             if new_px < len(laberinto[py]) and laberinto[py][new_px] != '#':
                 px = new_px
 
-    laberinto[py][px] = '\U0001F92B'
+    laberinto[py][px] = "P"
     print_laberinto(laberinto)
     print("¡Has llegado al final, FELICIDADES!")
 
