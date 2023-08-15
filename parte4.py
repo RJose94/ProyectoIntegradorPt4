@@ -65,7 +65,7 @@ def create_laberinto(end):
 #...#...#.....#...#.#
 ###.#####.#.#.#.###.#
 #...#.....#.#.......#
-###################.#
+###################..
 """
     laberinto_str = laberinto_str.replace("end", str(end[0]) + ", " + str(end[1]))
     laberinto_str = laberinto_str.strip()
