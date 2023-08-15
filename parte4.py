@@ -11,12 +11,12 @@ def print_laberinto(laberinto):
 
 def main_loop(laberinto, start, end):
     px, py = start
-    
+
     while (px, py) != end:
         laberinto[py][px] = '\U0001F92B'
         print_laberinto(laberinto)
         laberinto[py][px] = '.'
-        
+
         key = readchar.readkey()
 
         if key == readchar.key.UP:
