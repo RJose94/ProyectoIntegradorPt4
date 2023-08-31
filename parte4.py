@@ -73,7 +73,7 @@ def create_laberinto(end):
 
 def main():
     start = (0, 0)
-    end = (9, 9)
+    end = (20, 20)
     maze = create_laberinto(end)
     main_loop(maze, start, end)
 
